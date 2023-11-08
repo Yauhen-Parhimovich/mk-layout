@@ -1,0 +1,85 @@
+.page {
+    width: 100vw;
+    min-height: 100vh;
+    background-color: var(--color-background-main);
+    font-size: 14px;
+    font-family: var(--font-family-commissioner);
+    color: var(--color-text-primary);
+    overflow-x: hidden;
+}
+
+.button-primary {
+    color: var(--color-white);
+    font-weight: var(--font-weight-bold);
+    background: var(--color-primary-1);
+    border: 2px solid transparent;
+    padding: 5px 50px;
+    border-radius: 2px;
+    letter-spacing: 1.04px;
+    line-height: 30px;
+    text-transform: uppercase;
+    transition: var(--transition-duration);
+}
+
+.button-primary:hover {
+    color: var(--color-primary-1);
+    background: var(--color-white);
+    border: 2px solid var(--color-primary-1);
+}
+
+.button-secondary {
+    color: var(--color-primary-1);
+    font-weight: var(--font-weight-bold);
+    background: var(--color-white);
+    border: 2px solid var(--color-primary-1);
+    padding: 5px 50px;
+    border-radius: 2px;
+    letter-spacing: 1.04px;
+    line-height: 30px;
+    text-transform: uppercase;
+    transition: var(--transition-duration);
+}
+
+.button-secondary:hover {
+    color: var(--color-white);
+    background: var(--color-primary-1);
+    border: 2px solid var(--color-white);
+}
+
+.button-text {
+    color: var(--color-text-secondary);
+    background: transparent;
+    font-family: var(--font-family-lato);
+    font-weight: var(--font-weight-semibold);
+    font-size: 12px;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.24px;
+}
+
+.button-text:hover {
+    opacity: 0.8;
+}
+
+.wrapper {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.block-title {
+    font-family: var(--font-family-commissioner);
+    color: var(--color-text-title);
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 0.84px;
+}
+
+.block-content-text {
+    color: var(--color-text-primary);
+    font-family: var(--font-family-lato);
+    font-size: 15px;
+    font-weight: var(--font-weight-light);
+    line-height: 25px;
+}
+

@@ -1,0 +1,27 @@
+:root {
+    --font-family-commissioner: 'Commissioner', Arial, sans-serif;
+    --font-family-lato: 'Lato', Arial, sans-serif;
+
+    --color-white: #fff;
+
+    --color-text-primary: #000000CC;
+    --color-text-title: #000000E5;
+    --color-text-subtitle: #000000BF;
+    --color-text-secondary: #00000080;
+
+    --color-primary-1: #DEC377;
+    --color-primary-2: #D3AF4A;
+    --color-primary-3: #AB8B2F;
+    --color-primary-4: #DEC377BF;
+    --color-primary-5: #DEC37766;
+
+    --font-weight-light: 300;
+    --font-weight-normal: 400;
+    --font-weight-bold: 700;
+    --font-weight-semibold: 600;
+
+    --transition-duration: 0.3s;
+
+    --color-background-main: #F2F2F2;
+
+}
